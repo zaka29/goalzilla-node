@@ -1,0 +1,30 @@
+{
+  "name": "goalzilla-node",
+  "version": "1.0.0",
+  "description": "Goalzilla node graphql backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaka29/goalzilla-node.git"
+  },
+  "author": "zaka29",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaka29/goalzilla-node/issues"
+  },
+  "homepage": "https://github.com/zaka29/goalzilla-node#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
